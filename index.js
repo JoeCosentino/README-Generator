@@ -1,10 +1,9 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const fs = require('fs');
+const { writeFile, generateMarkdown } = require('./Develop/utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
-const questions = projectData => {
-    console.log(projectData);
+const questions = () => {
     return inquirer.prompt([
         
         {
@@ -29,6 +28,19 @@ const questions = projectData => {
                     return true;
                 } else {
                     console.log('Please enter your github account name!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'repository',
+            message: 'Please enter the github repository for this project',
+            validate: repoInput => {
+                if (repoInput){
+                    return true;
+                } else {
+                    console.log('Please enter the github repository for this project');
                     return false;
                 }
             }
@@ -107,34 +119,28 @@ const questions = projectData => {
         },
         {
             type: 'input',
-            name: 'questions',
-            message: 'Please let developers know how they can reach out for questions. Please provide an email address',
-            validate: questionsInput => {
-                if (questionsInput) {
+            name: 'email',
+            message: 'Please provide an email address so that people with questions can reach out to you.',
+            validate: emailInput => {
+                if (emailInput) {
                     return true;
                 } else {
+                    console.log('Please enter an email address');
                     return false;
                 }
             }
-        }
+        },
     ]);
 };
 
-// TODO: Create a function to write README file
-fs.writeFile('READMe.md', projectData, err => {
-    if (err) throw err;
-  
-    console.log('Portfolio complete! Check out index.html to see the output!');
-  });
+questions().then(function(answers){
+    console.log(answers);
+    return generateMarkdown(answers);
+})
+.then(pageREADME => {
+    writeFile(pageREADME);
+})
 
-// function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
-
-questions();
 
 
