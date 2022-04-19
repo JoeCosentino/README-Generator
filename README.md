@@ -6,7 +6,7 @@ you can find the repository for this project here: https://github.com/JoeCosenti
 
 ## Description of Project
 
-This project allows for a framework to be utilized to easily and consistently create professional README.md files for developers and their projects.
+This project assists developers in completing their README files. It allows for a framework to be utilized so that developers can streamline the creation of their README files.
 
 ## Installation
 
@@ -14,7 +14,7 @@ You can follow this link to download this project to your local computer: https:
 
 ## Intended Usage
 
-The intented usage for this application is to assist developers in creating README's, so that they can be created more easily and efficiently.
+Intended usage for this application is to assist developers in creating a professional README file.
 
 ## Licensing
 
@@ -22,11 +22,11 @@ For this project, the MIT license was used.
 
 ## Collaboration
 
-The following is how fellow developers can contribute to this project: Fellow developers can contribute by downloading this application to their local computer using the HTTPS link or SSH key and then adding code where they see fit, and then pushing back to GitHub.
+The following is how fellow developers can contribute to this project: Developers can contribute to this project by downloading this application to their local computers and then adding code where they see fit. Developers can create new branches and then push back into them.
 
 ## Testing
 
-Follow these instructions for testing this application: The user can test the application once it is downloaded to their computer and open in their coding software by going into their terminal and typing 'node index' or 'node index.js'
+Follow these instructions for testing this application: A user can test this application by opening it up in their coding software, opening the terminal, and then typing either 'node index' or 'node index.js'
 
 ## Questions
 
