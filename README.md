@@ -1,35 +1,61 @@
 # README Generator
 
-## Github Repository
+This is a README file for the README Generator application, completed by Joe Cosentino
+## Important Links
 
-you can find the repository for this project here: https://github.com/JoeCosentino/README-Generator
+* main repository link: https://github.com/JoeCosentino/README-Generator
 
-## Description of Project
+## To Download
 
-This project assists developers in completing their README files. It allows for a framework to be utilized so that developers can streamline the creation of their README files.
+* you can download these files to your local computer using either:
+    1. SSH: git@github.com:JoeCosentino/README-Generator.git
+    2. HTTPS: https://github.com/JoeCosentino/README-Generator.git
 
-## Installation
+## Collaboraters
 
-You can follow this link to download this project to your local computer: https://github.com/JoeCosentino/README-Generator.git
+* Giuseppe (Joe) Cosentino
+    - main developer on project
+* Portfolio Generator, Module 9
+    - allowed for framework to be referenced and certain elements and code to be analysed.
+* W3Schools
+    - assisted in explaining certain HTML and CSS functions
+* AskBCS
+    - Provided much assistance and clarification during development of this application
+* UofT Tutor, John Titus
+    - Provided clarity and understanding into concepts about JavaScript and Local Storage
 
-## Intended Usage
+## Description 
 
-Intended usage for this application is to assist developers in creating a professional README file.
+* This application is a README.md file generator that runs with JavaScript and node.js. The purpose of this application is to streamline the generation of a README.md file for developers. This application provides a framework that can be consistently utilized by developers to create a professional README.md file to put in their project.
+
+## Screenshot of Assignment
+
+![image](./assets/images/README-generator-ss.PNG)
+
+## Walkthrough Video Link
+
+https://drive.google.com/file/d/10KyBfdshsENK0t-vhHJkXQz8Nqn3ypf8/view
 
 ## Licensing
 
-For this project, the MIT license was used.
+MIT License
 
-## Collaboration
+Copyright (c) 2022 JoeCosentino
 
-The following is how fellow developers can contribute to this project: Developers can contribute to this project by downloading this application to their local computers and then adding code where they see fit. Developers can create new branches and then push back into them.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## Testing
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Follow these instructions for testing this application: A user can test this application by opening it up in their coding software, opening the terminal, and then typing either 'node index' or 'node index.js'
-
-## Questions
-
-If you would like to reach out to me with further questions, you can contact me either on GitHub or via email. You can find the information for both below:
-joeycosentino24@gmail.com
-JoeCosentino
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
