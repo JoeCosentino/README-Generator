@@ -82,16 +82,10 @@ const questions = () => {
             }
         },
         {
-            type: 'input',
+            type: 'checkbox',
             name: 'license',
-            message: 'Please write which license you chose to use for this project',
-            validate: licenseInput => {
-                if (licenseInput) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
+            message: 'Which license did you use for this project?',
+            choices: ['MIT', 'ISC', 'IBM', 'Mozilla', 'Perl']
         },
         {
             type: 'input',
